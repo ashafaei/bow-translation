@@ -1,4 +1,4 @@
-BoW Translation of Dense Trajectory Features
+# BoW Translation of Dense Trajectory Features
 ===============
 This is the code that accompanies the paper
 
@@ -7,6 +7,7 @@ See [project page](http://cs.ubc.ca/research/motion-view-translation/) for more 
 
 The basic idea is to learn a transformation function for BoW features that translates the feature descriptor as if they were seen from another viewpoint. We use this idea to perform cross-view action recognition.
 
+### How to run
 ******
 In order to run this code you need to have
 * [VLFeat](http://www.vlfeat.org/) for Matlab.
@@ -20,6 +21,7 @@ If you are a windows user you can manually download and extract the dataset from
 
 After that you can simply run `classify_ixmas.m` in Matlab.
 
+### What's in the dataset?
 ******
 The dataset contains
 * IXMAS Precomputed and quantized dense trajectory features. You can also use the vocbulary inside these files to quantize your own dense trajectory features to use with this code.
