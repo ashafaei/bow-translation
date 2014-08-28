@@ -22,4 +22,7 @@ After that you can simply run `classify_ixmas.m` in Matlab.
 ### What's in the dataset?
 The dataset contains
 * IXMAS Precomputed and quantized dense trajectory features. You can also use the vocbulary inside these files to quantize your own dense trajectory features to use with this code.
-* Trained transition matrices for 426 viewpoint changes. The procedure to prepare this data is explained in the paper. 
+* Trained transition matrices for 426 viewpoint changes. The procedure to prepare this data is explained in the paper.
+
+### I have a question?
+You can either contact [Alireza Shafaei](http://cs.ubc.ca/~shafaei/) or [Ankur Gupta](http://www.cs.ubc.ca/~ankgupta/).
