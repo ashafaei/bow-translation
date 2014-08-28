@@ -4,6 +4,7 @@
 % accuracies.
 % - Alireza
 
+addpath(genpath('./functions/'));
 %% Configuration
 
 script_config = struct();
