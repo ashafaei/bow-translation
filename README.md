@@ -25,4 +25,4 @@ The dataset contains
 * Trained transition matrices for 426 viewpoint changes. The procedure to prepare this data is explained in the paper.
 
 ### Do you have a question?
-You can either contact [Alireza Shafaei](http://cs.ubc.ca/~shafaei/) or [Ankur Gupta](http://www.cs.ubc.ca/~ankgupta/).
+You can either contact [Alireza Shafaei](http://www.cs.ubc.ca/~shafaei/) or [Ankur Gupta](http://www.cs.ubc.ca/~ankgupta/).
