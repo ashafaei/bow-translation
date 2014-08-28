@@ -1,4 +1,4 @@
-BoW translation of dense trajectory features
+BoW Translation of Dense Trajectory Features
 ===============
 This is the code that accompanies the paper
 
