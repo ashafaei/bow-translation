@@ -7,10 +7,15 @@ See [project page](http://cs.ubc.ca/research/motion-view-translation/) for more 
 
 The basic idea is to learn a transformation function for BoW features that translates the feature descriptor as if they were seen from another view point. We use this idea to perform cross-view action recognition.
 
+******
 In order to run this code you need to have
 * [VLFeat](http://www.vlfeat.org/) for Matlab.
 * [LibLinear](http://www.csie.ntu.edu.tw/~cjlin/liblinear/) for Matlab.
 
 We use VLFeat to calculate [Homogenous Kernel Maps](http://www.vlfeat.org/api/homkermap.html) of chi-squared kernel. LibLinear is used to train an SVM. You can easily replace these parts with any other implementations you like.
-******
+
 Before you can run this code you need to download and extract the dataset. If you're using Unix based machines you simply need to navigate to the base folder and run `./prepare_dataset.sh`.
+
+If you are a windows user you can manually download and extract the dataset from [here](http://www.cs.ubc.ca/~shafaei/homepage/projects/datasets/bmvc14.dataset.php).
+
+After that you can simply run `classify_ixmas.m` in Matlab.
