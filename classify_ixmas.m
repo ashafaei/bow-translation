@@ -54,7 +54,7 @@ for train_cam = 0:4,
     n_features = numel(Ys_orig);
     
     if script_config.augment_data
-        [Xs, Ys, weights] = data_augment(Xs_orig, Ys_orig, active_trans, ...
+        [Xs, Ys, weights] = data_augment(Xs_orig, Ys_orig, transitions, ...
                                         script_config.augment_weight, script_config.augment_include_self);
     else
         Xs = Xs_orig;
