@@ -13,6 +13,8 @@ In order to run this code you need to have
 
 We use VLFeat to calculate [Homogenous Kernel Maps](http://www.vlfeat.org/api/homkermap.html) of chi-squared kernel. LibLinear is used to train an SVM. You can easily replace these parts with any other implementations you like.
 
+To avoid potential compatibility problems with the future versions we have also included a copy of the liblinear in the `3rd party` folder.
+
 Before you can run this code you need to download and extract the dataset. If you're using Unix based machines you simply need to navigate to the base folder and run `./prepare_dataset.sh`.
 
 If you are a windows user you can manually download and extract the dataset from [here](http://www.cs.ubc.ca/~shafaei/homepage/projects/datasets/bmvc14.dataset.php).
